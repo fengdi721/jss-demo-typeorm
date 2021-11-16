@@ -17,7 +17,7 @@ export class Photo {
     @Column()
     filename: string;
 
-    @Column("double")
+    @Column("double precision")
     views: number;
 
     @Column()
